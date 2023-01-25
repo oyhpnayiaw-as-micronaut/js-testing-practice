@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:TDD": "jest --watchAll --coverage"
+  },
   "devDependencies": {
     "jest": "^29.4.0"
   }
